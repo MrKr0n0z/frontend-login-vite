@@ -3,10 +3,19 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-width: 100%;
+  padding: 40px 20px;
+  background: linear-gradient(180deg, #030303 0%, #3e3c41 100%);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .auth-card {
@@ -17,6 +26,7 @@
   width: 100%;
   max-width: 400px;
   animation: slideUp 0.3s ease-out;
+  box-sizing: border-box;
 }
 
 @keyframes slideUp {
@@ -62,7 +72,7 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #050069;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -73,7 +83,7 @@
 .submit-btn {
   width: 100%;
   padding: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #efeff3 0%, #050060 100%);
   color: white;
   border: none;
   border-radius: 4px;
@@ -107,14 +117,14 @@
 }
 
 .auth-link a {
-  color: #667eea;
+  color: #001ea6;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s;
 }
 
 .auth-link a:hover {
-  color: #764ba2;
+  color: #767577;
   text-decoration: underline;
 }
 
